@@ -1,4 +1,10 @@
 ## Enact 환경 설정
+### test 및 시연 환경
+<li>OS : Ubuntu 20.04.5 LTS</li>
+<li>npm version : 16.17.0</li>
+<li>yarn version : 1.22.19</li>
+<li>ENACT-CLI version : 5.0.1</li>
+
 ### 전체 초기 설정
 
 ```bash
@@ -12,7 +18,7 @@ npm install -g @enact/cli
 
 ```bash
 npm install
-yarn add react-router-dom@5.3.0
+yarn install
 
 npm run pack-p
 ares-package dist -o ipk
