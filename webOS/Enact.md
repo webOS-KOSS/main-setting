@@ -5,6 +5,7 @@
 <li>yarn version : 1.22.19</li>
 <li>ENACT-CLI version : 5.0.1</li>
 
+---
 ### 전체 초기 설정
 
 ```bash
