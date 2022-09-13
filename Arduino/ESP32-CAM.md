@@ -7,10 +7,15 @@
 
 ### ESP32 초기 설정
 
-
+![환경 설정](settings.png)
+<br/>
+파일 -> 환경설정
+![추가적인 보드 매니저](managers.png)
+<br/>
+추가적인 보드 매니저 URLs에 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json 추가
 
 --- 
-### webapp 초기 설정
+### ESP32-CAM 초기 설정
 기본적으로 ares-setup-device에서 자신의 webOS가 default로 설정되어 있음을 전제로 하고 있음을 알려드립니다.
 
 ```bash
