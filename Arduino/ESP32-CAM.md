@@ -9,10 +9,17 @@
 
 ![환경 설정](settings.png)
 <br/>
-파일 -> 환경설정
-![추가적인 보드 매니저](managers.png)
+1. 파일 -> 환경설정
+
+![추가적인 보드 매니저 URLs](managers.png)
 <br/>
-추가적인 보드 매니저 URLs에 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json 추가
+2. 추가적인 보드 매니저 URLs에 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json 추가
+
+![보드 매니저](boardmanager.png)
+<br/>
+3. 툴 -> 보드 -> 보드 매니저...
+<br/>
+
 
 --- 
 ### ESP32-CAM 초기 설정
