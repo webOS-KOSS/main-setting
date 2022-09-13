@@ -4,14 +4,16 @@
 <li>npm version : 16.17.0</li>
 <li>yarn version : 1.22.19</li>
 <li>ENACT-CLI version : 5.0.1</li>
+<li>ENACT-CLI version : 5.0.1</li>
 
 ---
 ### 전체 초기 설정
 
 ```bash
 npm install -g @enact/cli
+npm install -g @webosose/ares-cli 
 ```
-+) webapp을 설치했는데 화면이 나타나지 않는다면 난다면 시도해보는 것을 추천드립니다
++) webapp을 설치했는데 화면이 나타나지 않는다면 난다면 enact/cli 재설치를 시도해보는 것을 추천드립니다
 
 --- 
 ### webapp 초기 설정
