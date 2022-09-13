@@ -3,8 +3,8 @@
 <li>OS : Ubuntu 20.04.5 LTS</li>
 <li>npm version : 16.17.0</li>
 <li>yarn version : 1.22.19</li>
-<li>ENACT-CLI version : 5.0.1</li>
-<li>ENACT-CLI version : 5.0.1</li>
+<li>enact-cli version : 5.0.1</li>
+<li>ares-cli version : 2.3.1</li>
 
 ---
 ### 전체 초기 설정
