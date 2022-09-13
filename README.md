@@ -8,6 +8,6 @@
 <li><a href="https://github.com/webOS-KOSS/main-setting/blob/main/Arduino/ESP32-CAM.md">ESP32-CAM</a></li>
 <li><a href="https://github.com/webOS-KOSS/main-setting/blob/main/Arduino/ESP8266.md">ESP8266</a></li>
 
-## Raspbian
+## Raspbian OS
 
 ## Server Computer
