@@ -25,19 +25,5 @@
 
 --- 
 ### ESP32-CAM 초기 설정
-기본적으로 ares-setup-device에서 자신의 webOS가 default로 설정되어 있음을 전제로 하고 있음을 알려드립니다.
-
-```bash
-npm install
-yarn install
-
-npm run pack-p
-ares-package dist -o ipk
-
-ares-install ipk/<app_name>
-```
-혹은
-
-```bash
-sh setup.sh
-```
+1. 툴 -> 보드 -> ESP32 Arduino AI Thinker ESP32-CAM
+2. 툴 -> Partition Scheme -> HugeAPP(3MB No OTA/1MB SPIFFS)
