@@ -2,8 +2,7 @@
 ### test 및 시연 환경
 <li>OS : Ubuntu 20.04.5 LTS</li>
 <li>IDE : Arduino 1.8.19</li>
-<li>yarn version : 1.22.19</li>
-<li>ENACT-CLI version : 5.0.1</li>
+<li>Device : AI Thinker ESP32-CAM</li>
 
 ### ESP32 초기 설정
 
@@ -24,6 +23,6 @@
 4. 타입 = Contributed -> esp32 검색 -> esp32 by Espressif Systems 버전 2.0.4 설치
 
 --- 
-### ESP32-CAM 초기 설정
+### AI Thinker ESP32-CAM 초기 설정
 1. 툴 -> 보드 -> ESP32 Arduino AI Thinker ESP32-CAM
 2. 툴 -> Partition Scheme -> HugeAPP(3MB No OTA/1MB SPIFFS)
