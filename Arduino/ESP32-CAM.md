@@ -24,5 +24,5 @@
 
 --- 
 ### AI Thinker ESP32-CAM 초기 설정
-1. 툴 -> 보드 -> ESP32 Arduino AI Thinker ESP32-CAM
+1. 툴 -> 보드 -> ESP32 -> Arduino AI Thinker ESP32-CAM
 2. 툴 -> Partition Scheme -> HugeAPP(3MB No OTA/1MB SPIFFS)
