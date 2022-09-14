@@ -18,5 +18,5 @@ systemctl restart mosquitto.service
 ```
 ---
 ### MQTT Broker IP
-개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.
+개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
 우리 팀의 AWS EC2와 같은 경우에는 3.34.5.104:1883으로 MQTT Broker를 사용하기로 하였다.
