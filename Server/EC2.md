@@ -31,8 +31,11 @@ cd /home/ubuntu
 git clone https://github.com/webOS-KOSS/post_backend.git
 cd post_backend
 touch .env
-echo "MONGO_URL=\"mongodb+srv://yun1211:yunbird1211@cluster0.znfuk.mongodb.net/Cluster0?retryWrites=true&w=majority\"" >> .env
+mongourl=<몽고디비 링크>
+echo "MONGO_URL=\"$mongourl\"" >> .env
 ```
+개인적으로 세팅해야야 할 부분 : <몽고디비 링크>에 자신의 MongoDB 링크를 추가해주면 된다.
+
 ---
 ### MQTT Broker IP
 개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
@@ -40,5 +43,5 @@ echo "MONGO_URL=\"mongodb+srv://yun1211:yunbird1211@cluster0.znfuk.mongodb.net/C
 
 ---
 ### Express Web Server
-개인 MongoDB로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
+개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/> 
 [해당 링크](http://3.35.48.163:8080/)로 아파트 게시판 web Server에 접속할 수 있다.
