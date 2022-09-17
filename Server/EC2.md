@@ -41,4 +41,4 @@ echo "MONGO_URL=\"mongodb+srv://yun1211:yunbird1211@cluster0.znfuk.mongodb.net/C
 ---
 ### Express Web Server
 개인 MongoDB로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
-<a href="3.35.48.163:8080">3.35.48.163:8080</a>으로 아파트 게시판 web Server에 접속할 수 있다.
+[해당 링크](http://3.35.48.163:8080/)로 아파트 게시판 web Server에 접속할 수 있다.
