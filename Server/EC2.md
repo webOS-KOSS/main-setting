@@ -37,7 +37,7 @@ echo "MONGO_URL=\"$mongourl\"" >> .env
 개인적으로 세팅해야야 할 부분 : <몽고디비 링크>에 자신의 MongoDB 링크를 추가해주면 된다.
 
 ---
-### MQTT Broker IP
+### MQTT Broker
 개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
 우리 팀의 AWS EC2와 같은 경우에는 3.35.48.163:1883으로 MQTT Broker를 사용하기로 하였다.
 
