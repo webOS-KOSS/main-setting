@@ -4,6 +4,7 @@
 <li>docker version : </li>
 
 ### 전체 초기 설정
+기본적으로 ares-setup-device에서 자신의 webOS가 default로 설정되어 있음을 전제로 하고 있음을 알려드립니다.
 
 ```bash
 ares-shell
