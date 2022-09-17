@@ -12,4 +12,4 @@
 <li><a href="https://github.com/webOS-KOSS/main-setting/blob/main/Raspbian/GoogleDrive.md">GoogleDrive</a></li>
 
 ## Server
-<li><a href="https://github.com/webOS-KOSS/main-setting/blob/main/Server/MQTT.md">MQTT Broker</a></li>
+<li><a href="https://github.com/webOS-KOSS/main-setting/blob/main/Server/EC2.md">AWS EC2</a></li>
