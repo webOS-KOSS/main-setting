@@ -9,7 +9,7 @@
 ```bash
 ares-shell
 
-mkdir /home/root/videos 
+mkdir /media/images
 
 systemctl start docker
 docker pull ymw0407/tesseract
