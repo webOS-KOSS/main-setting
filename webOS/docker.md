@@ -13,7 +13,7 @@ mkdir /home/root/videos
 
 systemctl start docker
 docker pull ymw0407/tesseract
-docker run -d --name tesseract -v /media/videos:root/videos ymw0407/tesseract sleep infinity
+docker run -d --name tesseract -v /media/images:root/images ymw0407/tesseract sleep infinity
 
 docker exec -it tesseract /bin/bash
 ```
