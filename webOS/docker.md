@@ -13,7 +13,7 @@ mkdir /media/images
 
 systemctl start docker
 docker pull yun1211/tesseract
-docker run -d --name tesseract -v /media/images:root/images yun1211/tesseract sleep infinity
+docker run -d --name tesseract -v /media/images:/root/images yun1211/tesseract sleep infinity
 
 docker exec -it tesseract /bin/bash
 ```
