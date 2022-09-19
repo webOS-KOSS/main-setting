@@ -39,9 +39,9 @@ echo "MONGO_URL=\"$mongourl\"" >> .env
 ---
 ### MQTT Broker
 개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
-우리 팀의 AWS EC2와 같은 경우에는 3.35.48.163:1883으로 MQTT Broker를 사용하기로 하였다.
+우리 팀의 AWS EC2와 같은 경우에는 3.35.52.210:1883으로 MQTT Broker를 사용하기로 하였다.
 
 ---
 ### Express Web Server
 개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/> 
-[해당 링크](http://3.35.48.163:8080/)로 아파트 게시판 web Server에 접속할 수 있다.
+[해당 링크](http://3.35.52.210:8080/)로 아파트 게시판 web Server에 접속할 수 있다.
