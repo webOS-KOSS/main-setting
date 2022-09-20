@@ -35,6 +35,12 @@ mongourl=<몽고디비 링크>
 echo "MONGO_URL=\"$mongourl\"" >> .env
 ```
 개인적으로 세팅해야야 할 부분 : <몽고디비 링크>에 자신의 MongoDB 링크를 추가해주면 된다.
+게시판 서버와 같은 경우에는 다음과 같은 방법으로 실행시킬 수 있다.
+
+```bash
+cd /home/ubuntu/post_backend
+nodemon
+```
 
 ---
 ### MQTT Broker
