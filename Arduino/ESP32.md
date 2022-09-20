@@ -4,7 +4,7 @@
 <li>IDE : Arduino 1.8.19</li>
 <li>Device : FireBeetle Board-ESP32(V3.0)</li>
 
-### FireBeetleESP32 초기 설정
+### ESP32 초기 설정
 
 ![환경 설정](settings.png)
 <br/>
@@ -21,3 +21,7 @@
 ![esp32 install](esp32.png)
 <br/>
 4. 타입 = Contributed -> esp32 검색 -> esp32 by Espressif Systems 버전 2.0.4 설치
+
+--- 
+### FireBeetleESP32 초기 설정
+1. 툴 -> 보드 -> ESP32 -> ESP32 Dev Module
