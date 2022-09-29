@@ -45,7 +45,7 @@ nodemon
 ---
 ### MQTT Broker
 개인 AWS EC2로 설정시 해당 인스턴스의 퍼블릭 IPv4를 사용하면 된다.<br/>
-우리 팀의 AWS EC2와 같은 경우에는 43.200.4.58으로 MQTT Broker를 사용하기로 하였다.
+우리 팀의 AWS EC2와 같은 경우에는 43.201.54.39으로 MQTT Broker를 사용하기로 하였다.
 
 ---
 ### Express Web Server
