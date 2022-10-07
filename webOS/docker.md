@@ -13,6 +13,9 @@ mkdir /media/images
 chmod 777 /media/images
 
 systemctl start docker
+
+docker login # 자신의 docker 계정으로 login
+
 docker pull yun1211/tesseract
 docker run -d --name tesseract -v /media/images:/root/images yun1211/tesseract sleep infinity
 
