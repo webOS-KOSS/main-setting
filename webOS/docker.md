@@ -10,11 +10,11 @@
 ares-shell
 
 mkdir /media/images
-chmod 777 /media/images
+chmod 777 /media/images # 사진을 저장하기 위해서 권한 설정
 
 systemctl start docker
 
-docker login # 자신의 docker 계정으로 login
+docker login # 자신의 docker 계정으로 login하기
 
 docker pull yun1211/tesseract
 docker run -d --name tesseract -v /media/images:/root/images yun1211/tesseract sleep infinity
