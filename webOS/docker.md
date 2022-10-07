@@ -1,6 +1,6 @@
-## docker 환경 설정
+## Docker 환경 설정
 ### test 및 시연 환경
-<li>OS : webOS OSE 2.17.0</li>
+<li>OS : webOS OSE 2.18.0.g-unofficial</li>
 <li>docker version : Docker version 20.10.8, build 62eae52c2a</li>
 
 ### 전체 초기 설정
@@ -10,6 +10,7 @@
 ares-shell
 
 mkdir /media/images
+chmod 777 /media/images
 
 systemctl start docker
 docker pull yun1211/tesseract
