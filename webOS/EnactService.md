@@ -27,7 +27,6 @@ yarn install
 
 npm run pack-p
 ```
-<br>
 
 #### service 설정
 
